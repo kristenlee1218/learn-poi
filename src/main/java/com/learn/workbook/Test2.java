@@ -12,7 +12,7 @@ import java.io.FileInputStream;
  */
 public class Test2 {
     public static void main(String[] args) throws Exception {
-        File file = new File("E:/openwork-book.xlsx");
+        File file = new File("/Users/kristen/IdeaProjects/docu/openwork-book.xlsx");
         FileInputStream fip = new FileInputStream(file);
         //Get the workbook instance for XLSX file
         XSSFWorkbook workbook = new XSSFWorkbook(fip);

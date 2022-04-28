@@ -16,7 +16,7 @@ public class Test1 {
         //Create Blank workbook
         XSSFWorkbook workbook = new XSSFWorkbook();
         //Create file system using specific name
-        FileOutputStream out = new FileOutputStream(new File("E:/create-workbook.xlsx"));
+        FileOutputStream out = new FileOutputStream(new File("/Users/kristen/IdeaProjects/docu/create-workbook.xlsx"));
         //write operation workbook using file out object
         workbook.write(out);
         out.close();
